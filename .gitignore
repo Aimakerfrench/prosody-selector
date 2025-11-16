@@ -42,10 +42,19 @@ desktop.ini
 *.log
 *.tmp
 *.txt
-!عينة كاملة.txt
+!requirements*.txt
+!README*.txt
 نتائج_*.txt
 temp/
 output/
+
+# البيانات والمدونات الكبيرة - لا ترفع
+# ملفات أكبر من 10MB
+*.db
+كشكول/*.xlsx
+# السماح بالملفات الصغيرة
+!requirements*.txt
+!README*.txt
 
 # Test files
 .pytest_cache/

